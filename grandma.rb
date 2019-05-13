@@ -2,10 +2,10 @@
 def speak_to_grandma(what)
   if what != what.upcase
     return "HUH?! SPEAK UP, SONNY!"
-  elsif what == what.upcase
-    return "NO, NOT SINCE 1938!"
   elsif what == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
+  elsif what == what.upcase
+    return "NO, NOT SINCE 1938!"
   end
 end
 
